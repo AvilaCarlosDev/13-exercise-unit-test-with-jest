@@ -1,25 +1,29 @@
-# Ignore everything
-node_modules
-package-lock.json
-package.json
+# Dependencies
+node_modules/
 
-!.gitignore
-!.gitpod.yml
-!.gitpod.Dockerfile
-!bc.json
-!learn.json
-!README.md
-!README.es.md
-!.vscode
+# Build and coverage outputs
+coverage/
+dist/
+build/
+.nyc_output/
 
-!/exercises
-!/exercises/*
+# Env files
+.env
+.env.*
 
-!/.learn
-/.learn/**
-!/.learn/resets
-!/.learn/resets/**
-!/.learn/assets
-!/.learn/assets/**
-!/.learn/exercises
-!/.learn/exercises/**
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editors/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Jest cache/temp
+.jest/
+.tmp/
+.temp/
