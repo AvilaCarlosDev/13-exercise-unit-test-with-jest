@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-5QMWW39Z");
+    </script>
+    <!-- End Google Tag Manager -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+
+    <meta charset="UTF-8" />
+
+    <link rel="icon" type="image/svg+xml" href="/learnpack.svg" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css"
+      type="text/css"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="manifest" href="/manifest.webmanifest" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learnpack: Learn fast</title>
+    <meta name="description" content="{{description}}" />
+    <meta property="og:title" content="{{title}}" />
+    <meta property="og:description" content="{{description}}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="LearnPack" />
+    <meta property="og:image" content="{{preview}}" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{title}}" />
+    <meta name="twitter:description" content="{{description}}" />
+    <meta name="twitter:image" content="{{preview}}" />
+    <meta name="twitter:site" content="@learnpack" />
+    <meta name="twitter:creator" content="@learnpack" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Course",
+        "name": "{{title}}",
+        "description": "{{description}}",
+        "provider": {
+          "@type": "Organization",
+          "name": "Learn Pack",
+          "url": "https://www.learnpack.co"
+        },
+        "inLanguage": "en",
+        "courseCode": "{{slug}}",
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "online",
+          "duration": "{{duration}}"
+        }
+      }
+    </script>
+    
+    
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+      <iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-5QMWW39Z"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="root"></div>
+    
+  
+    <!-- Injected by deployment script - Resistance to caching is futile! -->
+    <script>
+        (function() {
+
+            const cloudFrontDomain = "d3a7w3e3g8ydll.cloudfront.net"
+
+            function getIdeVersion() {
+                try {
+                    if (typeof window === 'undefined' || typeof window.location === 'undefined') return "latest";
+                    const params = new URLSearchParams(window.location.search);
+                    return params.get('ideVersion') === 'next' ? 'next' : 'latest';
+                } catch (e) {
+                    return "latest";
+                }
+            }
+
+            const ideVersion = getIdeVersion()
+            const cssUrl = "https://" + cloudFrontDomain + "/learnpack/" + ideVersion + "/app.css"
+            const jsUrl = "https://" + cloudFrontDomain + "/learnpack/" + ideVersion + "/app.js"
+
+            // Add CSS
+            const link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.href = cssUrl + "?v=" + Date.now();
+            document.head.appendChild(link);
+
+            // Add JavaScript
+            const script = document.createElement('script');
+            script.type = 'module';
+            script.crossOrigin = 'anonymous';
+            script.src = jsUrl + "?v=" + Date.now();
+            document.body.appendChild(script);
+        })();
+    </script>
+</body>
+</html>
