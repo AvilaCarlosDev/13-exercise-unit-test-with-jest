@@ -1,44 +1,58 @@
 {
   "00-welcome": {
-    "us": "00-welcome"
+    "us": "00-welcome",
+    "es": "00-welcome"
   },
   "01-setup-our-project": {
-    "us": "01-setup-our-project"
+    "us": "01-setup-our-project",
+    "es": "01-setup-our-project"
   },
   "02-choosing-your-framework": {
-    "us": "02-choosing-your-framework"
+    "us": "02-choosing-your-framework",
+    "es": "02-choosing-your-framework"
   },
   "03-entry-point": {
-    "us": "03-entry-point"
+    "us": "03-entry-point",
+    "es": "03-entry-point"
   },
   "04-our-first-function": {
-    "us": "04-our-first-function"
+    "us": "04-our-first-function",
+    "es": "04-our-first-function"
   },
   "05-Test-file": {
-    "us": "05-Test-file"
+    "us": "05-Test-file",
+    "es": "05-Test-file"
   },
   "06-your-first-test": {
-    "us": "06-your-first-test"
+    "us": "06-your-first-test",
+    "es": "06-your-first-test"
   },
   "07-running-the-test": {
-    "us": "07-running-the-test"
+    "us": "07-running-the-test",
+    "es": "07-running-the-test"
   },
   "07.1-analysing-the-test": {
-    "us": "07.1-analysing-the-test"
+    "us": "07.1-analysing-the-test",
+    "es": "07.1-analysing-the-test"
   },
   "07.2-second-analysis": {
-    "us": "07.2-second-analysis"
+    "us": "07.2-second-analysis",
+    "es": "07.2-second-analysis"
   },
   "08-planning": {
-    "us": "08-planning"
+    "us": "08-planning",
+    "es": "08-planning"
   },
   "09-the-first-test": {
-    "us": "09-the-first-test"
+    "us": "09-the-first-test",
+    "es": "09-the-first-test"
   },
   "10-implementing-the-function": {
-    "us": "10-implementing-the-function"
+    "us": "10-implementing-the-function",
+    "es": "10-implementing-the-function"
   },
   "11-homework": {
-    "us": "11-homework"
+    "us": "11-homework",
+    "es": "11-homework"
   }
 }

@@ -27,3 +27,11 @@ Thumbs.db
 .jest/
 .tmp/
 .temp/
+
+# LearnPack generated files
+.learn/_app/
+.learn/app.tar.gz
+.learn/dist/
+.learn/config.json
+.learn/telemetry.json
+.learn/vscode_queue.json
